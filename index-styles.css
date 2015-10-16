@@ -1,0 +1,152 @@
+body { 
+  max-width: 1200px;
+  margin: 0 auto;
+}
+img {
+  max-width: 100%;
+}
+.logo {
+  float: left;
+}
+header {
+  border-bottom: 4px solid #9AE87F;
+  padding: 20px 0 10px 0;
+  margin-left: 160px;
+}
+.me {
+  float: right;
+  text-align: right;
+  font-family: 'Ek Mukta', sans-serif;
+  font-weight: 200;
+  padding: 0 20px 0 0;
+  line-height: 1;
+  text-transform: uppercase;
+  color: #555;
+} 
+.me h1 {
+  font-weight: 200;
+  margin: 20px 0 0 0 ;
+  font-size: 50px;
+}
+.me p {
+  margin: 0;
+}
+
+main aside {
+  float: left;
+  width: 160px;
+}
+.blocks div {
+  width: 75px;
+  height: 75px;
+  margin: 10px auto 0 auto;
+}
+.orange {
+  background-color: #9AE87F;
+}
+.light-grey {
+  background-color: #9F0DFF;
+}
+.dark-grey {
+  background-color: #FF870D;
+}
+.numbers {
+  list-style: none;
+  font-family: 'Ek Mukta', sans-serif;
+  font-weight: 300;
+  font-size: 1.3em;
+  padding: 0 0 0 40px;
+  margin: 40px 0 0;
+}
+.numbers li {
+  margin: 0;
+  padding: 0;
+  line-height: 1;
+}
+
+main .main {
+  max-width: 1040px;
+  float: right;
+  padding-top: 30px;
+}
+
+footer {
+  clear: both;
+  margin-left: 160px;
+}
+
+footer h2 {
+  margin: 0;
+  padding-top: 20px;
+  font-family: 'Ek Mukta', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  color: #9F0DFF;
+}
+
+footer .work {
+  float: left;
+  width: 30%;
+  margin-right: 5%;
+  text-align: center;
+}
+
+footer .work h3{
+  text-transform: uppercase;
+  color: #FF870D;
+  font-family: 'Ek Mukta', sans-serif;
+  font-weight: 300;
+  font-size: 2em;
+  margin: 10px 0px 0px 0px;
+  line-height: 1;
+}
+
+footer .work p {
+  margin: 0;
+  font-family: 'Ek Mukta', sans-serif;
+  font-weight: 200;
+}
+
+footer .work a {
+  text-decoration: none;
+  color: #777;
+}
+footer .work:last-of-type {
+  margin-right: 0;
+}
+
+@media screen and (max-width: 400px) {
+
+  header {
+    padding: 0px;
+    margin: 0px;
+    width: 100%;
+  }
+  .me {
+    font-size: .5em;
+  }
+  main aside {
+    float: none;
+    width: 100%;
+  }
+  .blocks div {
+    float: left;
+    margin-right: 5px;
+  }
+  .numbers {
+    padding: 10px 0px 0px 0px;
+    margin: 0px;
+  }
+  main .main {
+    float: none;
+  }
+  footer {
+    margin: 0px;
+  }
+
+  footer .work {
+    width: 100%;
+    margin: 0px;
+    float: none
+  }
+}
